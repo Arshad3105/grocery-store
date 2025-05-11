@@ -1,0 +1,62 @@
+#gpsForm {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  #gpsForm:hover {
+    transform: scale(1.02);
+  }
+  
+  #gpsForm h4 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.75rem;
+    color: #212529;
+    font-weight: 600;
+  }
+  
+  #gpsForm .form-group {
+    margin-bottom: 25px;
+  }
+  
+  #gpsForm label {
+    font-weight: 500;
+    color: #495057;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  #gpsForm input {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    padding: 12px;
+    background-color: #f9f9f9;
+    color: #212529;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  #gpsForm input:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+    background-color: #ffffff;
+  }
+  
+  #gpsForm .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #gpsForm .btn:hover {
+    background-color: #146c43;
+  }
+  
